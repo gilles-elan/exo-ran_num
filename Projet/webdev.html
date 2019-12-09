@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Developpeur</title>
+
+    <!-- Chargement de la feuille de style CSS ainsi que les polices de caractères -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b54ab1dc57.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Barre de navigation, logo, nav & bannière -->
+
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo-elan.png" alt=""></a>
+            </div>
+            <nav>
+                <a href="index.html"><i class="fas fa-home"></i> ACCUEIL</a>
+                <a href="webdesign.html"><i class="fas fa-palette"></i> DESIGNER WEB</a>
+                <a href="webdev.html"><i class="fas fa-laptop-code"></i> DEVELOPPEUR WEB</a>
+                <a href="infographiste.html"><i class="fas fa-file-alt"></i> INFOGRAPHISTE METTEUR EN PAGE</a>
+                <a href="coordonees.html"><i class="fas fa-address-book"></i> CONTACT</a>
+            </nav>
+        </header>
+        <div id="page2-banner">
+            <img src="img/" alt="">
+        </div>
+
+        <!-- contenu de page -->
+
+        <main>
+            <article id="webdev-article">
+                <section>
+                    <h1>DEVELOPPEUR WEB ET WEB MOBILE</h1>
+                    <p>Le titre professionnel de Développeur web et web mobile1 niveau III (code NSF : 326t) se compose de deux activités types, chaque activité type comportant les compétences nécessaires à sa réalisation. A chaque activité type correspond
+                        un certificat de compétences professionnelles (CCP).
+                    </p>
+                </section>
+
+                <!-- Section des compétences, avec menu déroulant accordéon -->
+
+                <div class="titre">
+                    <h2>Compétences</h2>
+                </div>
+                <section class="accordeon">
+                    <table>
+                        <button class="accordion">Développer la partie front-end d’une application web ou
+                            web mobile en intégrant les recommandations de sécurité
+                            </button>
+                        <div class="panel">
+                            <ul>
+                                <li>Maquetter une application.</li>
+                                <li>Réaliser une interface utilisateur web statique et adaptable.</li>
+                                <li>Développer une interface utilisateur web dynamique.</li>
+                                <li>Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce.</li>
+                            </ul>
+                        </div>
+
+                        <button class="accordion">Développer la partie back-end d’une application web ou
+                            web mobile en intégrant les recommandations de sécurité</button>
+                        <div class="panel">
+                            <ul>
+                                <li>Créer une base de données.</li>
+                                <li>Développer les composants d’accès aux données.</li>
+                                <li>Développer la partie back-end d’une application web ou web mobile.</li>
+                                <li>Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce.</li>
+                            </ul>
+                        </div>
+                    </table>
+                </section>
+
+                <!-- Documentation à visionner & télécharger -->
+
+                <section>
+                    <div class="titre">
+                        <h2>Documentations</h2>
+                    </div>
+                    <div id="docs-content">
+                        <div>
+                            <h3>Fiche de communication</h3>
+                            <a href="fichiers/webdev/Fiche_com_webdev.pdf" target="_blank"> <i class="fas fa-file-pdf"></i></a>
+                        </div>
+                        <div>
+                            <h3>Fiche R.C.</h3>
+                            <a href="fichiers/webdev/RCV2_webdev.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                        </div>
+                        <div>
+                            <h3>Fiche R.E.A.C.</h3>
+                            <a href="fichiers/webdev/REAC_webdev.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Menu accordeon pour visionner les vidéos -->
+
+                <div class="titre">
+                    <h2>Vidéos</h2>
+                </div>
+                <section class="accordeon">
+                    <table>
+                        <button class="accordion">Cliquez pour visionner les vidéos</button>
+                        <div class="videos-tab">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QgjyOOa3jm0" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VsJg-t0GroA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </table>
+                </section>
+
+                <!-- Logos des logiciels utilisés pour la formation -->
+
+                <div class="titre">
+                    <h2>Technologies utilisées</h2>
+                </div>
+                <section>
+                    <figure>
+                        <img src="img/logo-html.png" alt="">
+                        <img src="img/icon_css.png" alt="">
+                        <img src="img/logo-js.png" alt="">
+                        <img src="img/logo-jq.jpg" alt="">
+                        <img src="img/logo-php.png" alt="">
+                        <img src="img/logo-python.png" alt="">
+                    </figure>
+                </section>
+            </article>
+
+        </main>
+
+        <!-- Pied de page, auteurs & copyright -->
+
+        <footer>
+            <p>Les métiers du numérique</p>
+            <p><i class="fas fa-copyright"></i> Christopher, Bohran, Laurent</p>
+        </footer>
+    </div>
+
+    <!-- Téléchargement du fichier javascript -->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: #000; /* Old browsers */
+    background: linear-gradient(45deg,  #000000 0%,#3e3e3e 100%);
+    height: 100%;
+
+}
+.cls-1 {
+    fill:transparent;
+    stroke: darkgreen;
+    stroke-width:3px;
+    stroke-dasharray: 1115;
+    stroke-dashoffset: 1115;
+    animation: 4s appear forwards, 1s remplir forwards;
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+@keyframes appear {
+    from { stroke-dashoffset: 1115; }
+    to { stroke-dashoffset: 0; }
+}
+@keyframes remplir {
+    from { fill: transparent; }
+    to { fill: green; }
+}
+.g {
+    animation-delay: 1s, 10s;
+}
+.a {
+    animation-delay: 2s, 10.5s;
+}
+.m {
+    animation-delay: 3s, 11s;
+}
+.e1 {
+    animation-delay: 4s, 11.5s;
+}
+.o {
+    animation-delay: 5s, 12s;
+}
+.v {
+    animation-delay: 6s, 12.5s;
+}
+.e2 {
+    animation-delay: 7s, 13s;
+}
+.r {
+    animation-delay: 8s, 13.5s;
+}
