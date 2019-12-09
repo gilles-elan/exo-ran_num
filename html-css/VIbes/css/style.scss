@@ -1,0 +1,25 @@
+// GENERALS
+$pink : #FF004F;
+$bgfirst : #fc8a00;
+$bgsecond : #ad1283;
+
+//GLOBALS
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc8a00+0,ad1283+27,ffaa00+55,ad1283+77,ffaa00+98 */
+    background: $bgfirst; /* Old browsers */
+    background: -moz-linear-gradient(top,  $bgfirst 0%, $bgsecond 27%, $bgfirst 55%, $bgsecond 77%,$bgfirst  98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $bgfirst 0%,$bgsecond 27%,$bgfirst 55%,$bgsecond 77%,$bgfirst 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $bgfirst 0%,$bgsecond 27%,$bgfirst 55%,$bgsecond 77%,$bgfirst 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$bgfirst, endColorstr=$bgfirst,GradientType=0 ); /* IE6-9 */
+}
+
+.flex, ul {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: $pink;
+    text-decoration: none;
+}

@@ -1,0 +1,75 @@
+/*BLOC1*/
+.bloc1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc1 div {
+    margin: 0 10px;
+}
+
+/*>BLOC2*/
+.bloc2 .container{
+    position: relative;
+}
+.bloc2 .lightblue {
+    position: absolute;
+    top:0; 
+    left:0;
+}
+.bloc2 .pink {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.bloc2 .purple {
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+/*BLOC3*/
+.bloc3 .container {
+    position: relative;
+}
+.bloc3 .lightblue {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    z-index: 1;
+}
+.bloc3 .pink {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
+.bloc3 .purple {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    z-index: 3;
+}
+
+/*BLOC4*/
+.bloc4 .container {
+    position: relative;
+}
+.bloc4 .lightblue {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    z-index: 1;
+}
+.bloc4 .pink {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
+.bloc4 .purple {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    z-index: 3;
+}

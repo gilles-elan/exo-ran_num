@@ -1,0 +1,28 @@
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc8a00+0,ad1283+27,ffaa00+55,ad1283+77,ffaa00+98 */
+  background: #fc8a00;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#fc8a00), color-stop(27%, #ad1283), color-stop(55%, #fc8a00), color-stop(77%, #ad1283), color-stop(98%, #fc8a00));
+  background: linear-gradient(to bottom, #fc8a00 0%, #ad1283 27%, #fc8a00 55%, #ad1283 77%, #fc8a00 98%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$bgfirst, endColorstr=$bgfirst,GradientType=0 );
+  /* IE6-9 */
+}
+
+.flex, ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #FF004F;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

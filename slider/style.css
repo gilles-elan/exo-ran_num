@@ -1,0 +1,49 @@
+.wrap {
+    display: flex;
+}
+button {
+    width: 50px;
+    height: 350px;
+    margin-top: 16px;
+}
+.slider {
+    width: 600px;
+    height: 350px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+}
+.button {
+    background: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: #fff;
+  }
+  form {
+    background: #fff;
+    border: 1px solid #0084ff;
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  label, input {
+    display: none;
+  }
+  .labeling {
+    display: block;
+    padding: 8px 14px;
+    font-size: 15px;
+  }
+  .bloc {
+    display: block;
+    background: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: #fff;
+  }
+  
