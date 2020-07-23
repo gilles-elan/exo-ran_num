@@ -1,0 +1,264 @@
+/*--- VARIABLES ---*/
+/*--- END VARIABLES ---*/
+/*--- MIXINS ---*/
+/*--- END MIXINS ---*/
+/*--- GLOBALS ---*/
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  width: 90%;
+  margin: 1em auto;
+  padding: 2em;
+  background-color: #fff;
+}
+
+/*--- END GLOBALS ---*/
+/*--- CSSSSSSS ---*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  background-color: gray;
+}
+
+header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: orange;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+header .logo {
+  display: block;
+  max-width: 70px;
+  margin: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+header p.head {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2em 1em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header nav a:hover, header nav a:focus {
+  background-color: #fff;
+  color: orange;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+main section.banner {
+  background: #515151 url("../img/strasbourg.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70vh;
+  width: 100%;
+  margin: 0 0 2em 0;
+}
+
+main section.banner h1 {
+  font-size: 4em;
+  font-weight: 200;
+}
+
+main section.banner p {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+main section.formations table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+}
+
+main section.formations th {
+  background-color: #515151;
+  color: #fff;
+}
+
+main section.formations td,
+main section.formations th {
+  padding: 0.5em 1em;
+  border: 1px solid #515151;
+}
+
+main section.formations th:first-child,
+main section.formations td:first-child,
+main section.formations td:last-child,
+main section.formations th:last-child {
+  width: 40%;
+}
+
+main section.equipe ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section.equipe li {
+  position: relative;
+  margin: 1em;
+}
+
+main section.equipe li > p {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  background-color: orange;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+main section.equipe li:hover > p {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0.9;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+main section.contact form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section.contact input,
+main section.contact textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+main section.contact textarea {
+  height: 20vh;
+}
+
+main section.contact input:focus, main section.contact textarea:focus {
+  border-color: orange;
+  border-radius: 5px;
+}
+
+main section.contact input[type="submit"] {
+  width: 50%;
+  padding: 1em 3em;
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+main section.contact input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: orange;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+footer {
+  background-color: #515151;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+  header nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  header p.head {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

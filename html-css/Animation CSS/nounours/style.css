@@ -1,0 +1,20 @@
+.container {
+  width: 40%;
+  margin: auto;
+}
+.cls-1,
+.cls-2,
+.cls-3 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+.cls-1 {
+  stroke-width: 3px;
+}
+.cls-2 {
+  stroke-width: 0.98px;
+}
+.cls-3 {
+  stroke-width: 0.73px;
+}

@@ -1,0 +1,91 @@
+body {
+  background: #010101;
+}
+.container {
+  width: 80%;
+  margin: 5em auto;
+}
+.cls-1 {
+  stroke: #04bfad;
+  stroke-miterlimit: 10;
+  fill: transparent;
+  stroke-dasharray: 657;
+  stroke-dashoffset: 657;
+  animation: 6s contour_on ease-out forwards;
+}
+.cls-2 {
+  fill: transparent;
+}
+
+@keyframes contour_on{
+    from {
+        stroke-dashoffset: 657;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes remplir {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #012623;
+    }
+}
+@keyframes clignotte {
+    from {
+        fill: #012623;
+    }
+    to {
+        fill: #04bfad;
+    }
+}
+.e1 {
+    animation-delay: 1s;
+}
+.t {
+    animation-delay: 2s;
+}
+.a1 {
+    animation-delay: 3s;
+}
+.l1 {
+    animation-delay: 4s;
+}
+.g {
+    animation-delay: 5s;
+}
+.e2 {
+    animation-delay: 6s;
+}
+.a2 {
+    animation-delay: 7s;
+}
+.r {
+    animation-delay: 8s;
+}
+.s {
+    animation-delay: 9s;
+}
+.o {
+    animation-delay: 10s;
+}
+.l2 {
+    animation-delay: 11s;
+}
+.i {
+    animation-delay: 12s;
+}
+.d {
+    animation-delay: 13s;
+}
+
+.continue {
+    animation: 2s remplir forwards 15s, 500ms clignotte ease-in-out alternate infinite 17s;
+    cursor: pointer;
+}
+.exit {
+    animation: 2s remplir forwards 15s;
+    cursor: pointer;
+}
